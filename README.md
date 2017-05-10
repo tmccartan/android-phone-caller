@@ -9,6 +9,10 @@ Its a quick a dirty app for a specific need, Improvements would be
 - Better handling the permissions on startup 
 - Removing the main activity and just having it run in the background
 - Better handling of exceptions
+- Better handle multiple numbers and changing of the target number in the app
+- Some layer of persistence rather than hard coded numbers
+
+Uses a broadcast receiver to wait for a SMS message from a specified number, if the message contains the magic words it starts a phonecall to open the gate
 
 Built with Android studio, Marshmallow and on a Nexus 5 
 
